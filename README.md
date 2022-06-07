@@ -18,29 +18,33 @@ The most popular service for hosting MongoDB databases, not surprisingly, is Mon
 
 First, you will need to signup for a free account [**here**](https://www.mongodb.com/cloud/atlas/register).
 
-![The MongoDB Atlas signup page](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/3d0ea3f7-ff22-4c9d-9e2e-e566bc32484e/Untitled.png)
+![createaccount01](https://user-images.githubusercontent.com/48702365/172476116-396f9445-4b89-4013-8f13-68ac262244e9.png)
+
 
 The MongoDB Atlas signup page
 
 You'll be asked to verify your email address:
 
-![The MongoDB Atlas email verification page](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f3c57804-f1ee-4d76-9d27-168ed5ce329f/Untitled.png)
+![createaccount03](https://user-images.githubusercontent.com/48702365/172476169-e456c042-c712-441b-b199-c641d1215000.png)
+
 
 The MongoDB Atlas email verification page
 
-![The MongoDB Atlas email successfully verified page.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/2cdc3bc5-8c41-4fd8-9558-29a91727cc8d/Untitled.png)
+![createaccount02](https://user-images.githubusercontent.com/48702365/172476247-a3d09948-53be-4948-9c91-04cdd49338bf.png)
 
 The MongoDB Atlas email successfully verified page.
 
 After continuing, you'll be asked to fill out some account setup questions.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87818977-f2fc-44d0-8cf8-97d6c6dbda85/Untitled.png)
+![createaccount04](https://user-images.githubusercontent.com/48702365/172476314-e5575731-6a53-4a13-ac56-f16868d79032.png)
+
 
 # Create a New Cluster
 
 Once logged in, Atlas will request that you create a *cluster* - join a shared cluster, which is free.
 
-![Use a shared cluster, which is free](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/afabd2f6-bd94-4a58-858f-f50f15156992/mdb1.png)
+![createcluster01](https://user-images.githubusercontent.com/48702365/172476425-40239a05-3dc8-491b-919a-28852290f842.png)
+
 
 Use a shared cluster, which is free
 
@@ -78,7 +82,8 @@ Select the Add New Database User button
 
 Then enter a username, password (with no special characters), select the `Read and write to any database` option, then click the `Add User` button.
 
-![The Add New Database User pane](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/8fb9a228-a226-4f46-9d0f-0fe3ce22eb1f/image_(34).png)
+![Readandwritetoanydatabase](https://user-images.githubusercontent.com/48702365/172476579-65af5973-12e5-4afd-ab47-68e707fb0df4.png)
+
 
 The Add New Database User pane
 
@@ -113,7 +118,8 @@ The result of clicking the ALLOW ACCESS FROM ANYWHERE button
 
 Return to the Databases page.
 
-![The Network Access page after allowing access from anywhere. Select Databases.](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0e564ce-cda0-4c7a-ba86-b243c98ad61d/mdb2.png)
+![returntodbpages](https://user-images.githubusercontent.com/48702365/172476690-329d3743-91f4-4452-a3ba-9fd87c15bacb.png)
+
 
 The Network Access page after allowing access from anywhere. Select Databases.
 
@@ -121,7 +127,8 @@ The Network Access page after allowing access from anywhere. Select Databases.
 
 To obtain the connection string for your `.env` file, first click the `CONNECT` button.
 
-![Select the CONNECT button on the Databases page](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/59a1554a-2e4d-4097-944e-a603879f8752/mdb3.png)
+![obtainconnectionstring](https://user-images.githubusercontent.com/48702365/172476745-75d6dbbf-8c4f-4c25-8a41-7fe2267d344e.png)
+
 
 Select the CONNECT button on the Databases page
 
@@ -133,7 +140,8 @@ Showing the connection options, select Connect your application.
 
 Next, ensure that the **Node.js** driver and latest version is selected. Then click the `Copy` button to add the connection string to your clipboard:
 
-![Showing the connection string](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/369e7559-afe3-4a58-9ae9-89321c7e1f89/mdb4.png)
+![showingtocopyconnectionstring](https://user-images.githubusercontent.com/48702365/172476854-bcd075b6-9880-4a29-8eec-295eaf79b5f3.png)
+
 
 Showing the connection string
 
